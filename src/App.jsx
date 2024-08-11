@@ -5,7 +5,11 @@ import { Articulos } from "./componentes/Articulos";
 import { VerArticulo } from "./componentes/Articulos/VerArticulo";
 import { CrearArticulo } from "./componentes/Articulos/CrearArticulo";
 import { Login } from "./routes/Login";
+ 
+
+
 import Navbar from "./components/NavBar";
+
 import { EditarArticulo } from "./componentes/Articulos/EditarArticulo";
 import { ProtectedRoute } from "./contexts/ProtectedRoute";
 import {Perfiles} from "./componentes/Profiles/Perfiles";
