@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Articulos } from "./components/Articulos";
-import { VerArticulo } from "./components/Articulos/VerArticulo";
-import { CrearArticulo } from "./components/Articulos/CrearArticulo";
+import { Articulos } from "./componentes/Articulos";
+import { VerArticulo } from "./componentes/Articulos/VerArticulo";
+import { CrearArticulo } from "./componentes/Articulos/CrearArticulo";
 import { Login } from "./routes/Login";
 import Navbar from "./components/NavBar";
-import { EditarArticulo } from "./components/Articulos/EditarArticulo";
+import { EditarArticulo } from "./componentes/Articulos/EditarArticulo";
 import { ProtectedRoute } from "./contexts/ProtectedRoute";
-import {Perfiles} from "./components/Profiles/Perfiles";
+import {Perfiles} from "./componentes/Profiles/Perfiles";
 
 const App = () => {
     return (
