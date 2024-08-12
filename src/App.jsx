@@ -8,7 +8,7 @@ import { Login } from "./routes/Login";
  
 
 
-import Navbar from "./components/NavBar";
+import Navbar from "./componentes/NavBar";
 
 import { EditarArticulo } from "./componentes/Articulos/EditarArticulo";
 import { ProtectedRoute } from "./contexts/ProtectedRoute";

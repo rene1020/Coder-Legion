@@ -24,3 +24,19 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.bg-light{
+    background-color:black!important;
+    
+}
+.nav-link{
+    color: white !important;
+    
+  
+}
+.navbar-brand{
+    color: white !important;
+    
+}
+body{
+    background-color: #eeebeb;
+}

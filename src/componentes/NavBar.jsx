@@ -3,14 +3,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
 import { AuthContext, AuthProvider } from '../contexts/AuthContext';
+import './Articulo.css';
 
 const Navbar = () => {
   const { auth, logout } = useContext(AuthContext);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="nav">
       <div className="container">
-        <Link className="navbar-brand" to="/">Home</Link>
+        <Link className="navbar-brand" to="/" >Home</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
